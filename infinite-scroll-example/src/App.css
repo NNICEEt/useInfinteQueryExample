@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.top-section {
+  height: 60px;
+  background-color: #0ab356;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infinite-scroll {
+  max-height: calc(100vh - 70px);
+  overflow: auto;
+  padding: 4px;
+}
+
+.item {
+  width: 200px;
+  margin: 6px auto;
+  padding: 10px 0;
+  background-color: #92e08b;
+}
